@@ -1,0 +1,205 @@
+/* Ensure the card is centered and has proper spacing */
+.card {
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  max-width: 18rem;
+}
+
+/* Add a hover effect for the card */
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the card title */
+.card-title {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* Style the card description */
+.card-text {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* Style the buttons within the card */
+.card .btn {
+  margin: 5px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+}
+
+/* Add icon spacing */
+.card .btn svg {
+  margin-right: 5px;
+}
+
+/* Primary button styles */
+.card .btn-primary {
+  background-color: #007bff;
+  color: white;
+}
+
+.card .btn-primary:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
+
+/* Danger button styles */
+.card .btn-danger {
+  background-color: #dc3545;
+  color: white;
+}
+
+.card .btn-danger:hover {
+  background-color: #c82333;
+  transform: translateY(-2px);
+}
+
+.text-bg-success {
+  background-color: #d4edda;
+}
+
+.mb-3 {
+  margin-bottom: 1rem;
+}
+
+.update {
+  height: 100%;
+}
+
+.todo-update {
+  width: 100%;
+  height: 80vh;
+  position: absolute;
+  position: fixed;
+  top: 80px;
+  left: 0px;
+  background-color: aquamarine;
+  display: block;
+}
+
+#des {
+  display: none;
+}
+
+/* //ai code */
+
+.todo-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.input-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.todo-cards {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.col-md-4.title,
+.col-md-4 {
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 400px; /* Optional: Set a max width for input fields */
+}
+
+#des {
+  display: none;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+input[type="text"]:focus,
+textarea:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  outline: none;
+}
+
+.col-12 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.btn {
+  padding: 10px 20px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  color: white;
+}
+
+.btn-danger:hover {
+  background-color: #c82333;
+}
+
+.todo-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Ensure footer stays at the bottom */
+footer {
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+  width: 100%;
+  bottom: 0;
+}
