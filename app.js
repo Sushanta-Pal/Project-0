@@ -1,5 +1,5 @@
 const express = require('express');
-const port = process.env.PORT || 1000
+const port = process.env.PORT || 1001
 const connectDB =require('./connection/connectDB')
 const auth = require('./Route/auth')
 const addTask = require('./Route/addTask')
