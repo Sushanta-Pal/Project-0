@@ -2,7 +2,7 @@ import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
 import { authActions } from '../../store';
-import './navBar.css';
+ import './navBar.css';
 import { SiMastodon } from "react-icons/si";
 
 const Navbar = () => {
